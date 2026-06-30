@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0030/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5d0030/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 玄牝之門賦
+  date: '2015-08-29 00:59:42.186977'
+  source:
+    repository: kanripo
+    path: KR5d0030
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0030_000-ZTDZ.yaml, hash: 'sha256:0b0a750b796d81452fa36d289f03e44438ba4be76412c14167947a0732a40c1b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0030_000-ZTDZ.markers.yaml, hash: 'sha256:29ac6c86578415b45f96d1a680123cd1fe790364e9ad11cd3c043830cacb85ec'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0030_SJB_000-200320c
+    span:
+    - body
+    - 0
+    - 1086
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:be329dad3f64aebf7b3483e627ffa740a0d4b13dc6bf59438c3942447e9e0405
